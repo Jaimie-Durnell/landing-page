@@ -3,7 +3,7 @@ body {
     margin: 0;
     min-height: 100vh;
     /* max-width: 960px; */
-    font-size: 16px;
+    font-size: 18px;
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -11,7 +11,7 @@ body {
 
 .header {
     background-color: #1f2937;
-    font-size: 16px;
+    font-size: 18px;
     color: #e5e7eb;
     /* display: flex; */
     display: flex;
@@ -26,7 +26,7 @@ ul {
     padding: 0;
     display: flex;
     gap: 16px;
-    margin: 0px 200px;
+    margin: 0px 300px;
   }
 
 a {
@@ -36,7 +36,7 @@ a {
 }
 
 .header .left-links {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
     color: #f9faf8;
 }
@@ -45,22 +45,29 @@ a {
     background: #1f2937;
     color: #e5e7eb;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    padding: 50px 200px;
+    padding: 50px 300px 80px 300px;
+    gap: 100px;
 }
+
 
 .hero .title {
-    font-size: 40px;
+    font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
+    margin-bottom: 10px;
 }
 
+.hero .text {
+    margin-bottom: 10px;
+}
 
 
 .placeholder-image {
     background: grey;
-    padding: 50px;
-    width: 250px;
+    padding: 100px;
+    width: 300px;
 }
 
 button {
@@ -77,7 +84,12 @@ button {
     font-weight: bold;
 }
 
-
+.box {
+    border: 4px solid #3882f6; 
+    border-radius: 6px;
+    height: 250px;
+    width: 250px;
+}
 
 
 .footer {
