@@ -80,7 +80,7 @@ button {
     background-color: #3882f6;
     color: #f9faf8;
     padding: 5px 15px;
-    border: 1px solid #f9faf8;
+    
 }
 
 .hero button {
@@ -125,6 +125,7 @@ button {
     border-radius: 6px;
     height: 200px;
     width: 200px;
+    margin-bottom: 10px;
 }
 
 .info .text {
@@ -155,6 +156,39 @@ button {
    
 }
 
+.call-to-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0px;
+}
+
+.modal-bottom {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 6px;
+    height: 100px;
+    width: 100%;
+    margin: 0px 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} 
+
+.left .title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.left .text {
+    font-size: 16px;
+}
+
+.right button {
+    border: 2px solid #f9faf8;
+    font-weight: bold;
+}
 .footer {
     background: #1f2937;
     color: #f9faf8;
